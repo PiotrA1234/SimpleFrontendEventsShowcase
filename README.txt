@@ -29,12 +29,12 @@ It includes a simple main menu, a mock backend, asset loading, and event display
 Event data is controlled through a **ScriptableObject** located at: Assets/AddressableAssets/Settings/LOEventsMockData
 
 You can edit:
-- `uniqueId`  
+- `uniqueId`  -> different events with same uniqueId will result in unexpected server behaviour
 - `name`  
-- `requiredLevel`  
+- `requiredLevel`  -> to set visibility of event from certain level
 - `endTimestampInSeconds`  
-- `addressableLabel`  
-- `keysToAssets` (assets to load for the event)
+- `addressableLabel`  -> just to simplify loading of assets at one go
+- `keysToAssets` -> concreto assets specific to the event
 
 ---
 
