@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UseVaultEvent
+  m_EditorClassIdentifier: 
+  m_GroupName: UseVaultEvent
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a99a09380ba0d2942838b23237eb7446
+  m_SerializeEntries:
+  - m_GUID: 446d3cdbd518fec40a0d439c281fa12f
+    m_Address: UseVaultEventPopup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UseVaultEventLabel
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66aca8a534355bc43b8eb38494229258
+    m_Address: UseVaultEventIcon_Active
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UseVaultEventLabel
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1c888f0a2f7cd84eb4d0355624ae4d8
+    m_Address: UseVaultEventIcon_Expired
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UseVaultEventLabel
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f22a49f1830f66442860c46845a75277, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 46335e535ddd3674b9512539ae386f0e, type: 2}
+    - {fileID: 11400000, guid: 82c392022f4d997408aaf0f3c6fbcf18, type: 2}

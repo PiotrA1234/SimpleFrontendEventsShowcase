@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bab5d9fdc50b764b8a7ca7e743ff652, type: 3}
+  m_Name: LOEventsMockData
+  m_EditorClassIdentifier: 
+  Events:
+  - uniqueId: 1
+    name: Get Coins Event!
+    requiredLevel: 0
+    openedCount: 0
+    endTimestampInSeconds: 1759175066
+    addressableLabel: GetCoinsEventLabel
+    keysToAssets:
+    - key: activeIcon
+      value: GetCoinsEventIcon_Active
+    - key: expiredIcon
+      value: GetCoinsEventIcon_Expired
+    - key: popup
+      value: GetCoinsEventPopup
+    openedAfterExpired: 0
+  - uniqueId: 2
+    name: Get Key Summer Event!
+    requiredLevel: 7
+    openedCount: 0
+    endTimestampInSeconds: 1758570266
+    addressableLabel: GetKeySummerEventLabel
+    keysToAssets:
+    - key: activeIcon
+      value: GetKeySummerEventIcon_Active
+    - key: expiredIcon
+      value: GetKeySummerEventIcon_Expired
+    - key: popup
+      value: GetKeySummerEventPopup
+    openedAfterExpired: 0
+  - uniqueId: 3
+    name: Use Vault Event!
+    requiredLevel: 0
+    openedCount: 0
+    endTimestampInSeconds: 1758377217
+    addressableLabel: UseVaultEventLabel
+    keysToAssets:
+    - key: activeIcon
+      value: UseVaultEventIcon_Active
+    - key: expiredIcon
+      value: UseVaultEventIcon_Expired
+    - key: popup
+      value: UseVaultEventPopup
+    openedAfterExpired: 0

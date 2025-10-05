@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: UIGroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 08a4b9d74b4cbd94ba377a93c022c6e1
+  m_SerializeEntries:
+  - m_GUID: 60ed33d20bcc50141bc31390594b3222
+    m_Address: Timer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bb306eac2edb3049b0c800edf69eae2
+    m_Address: MainSceneUI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 800bb191af61de34bbf692aaa8b9f14b
+    m_Address: LOEventsMockData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd99b99e37660e04e990f7bbc98cfe9f
+    m_Address: LOEvent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f22a49f1830f66442860c46845a75277, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 90f717247078159419e282fc99b2c3a6, type: 2}
+    - {fileID: 11400000, guid: 13e6c3043bfc1b44d945d7c6584c833b, type: 2}
